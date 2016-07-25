@@ -33,12 +33,12 @@ body.emergency #tiny_growl {
     width: 90%;
 }
 h1 {
-    margin: 0 0 1px;
-    font-size: 11px;
+    margin: 0;
+    font-size: 12px;
     font-weight: 400;
 }
 p {
     margin: 0;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 200;
 }
