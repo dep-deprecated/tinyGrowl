@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    font-family: Helvetica;
+    padding: 3px;
+}
+body #tiny_growl {
+	background: rgba(255, 255, 255, .8);
+    border-radius: 5px;
+    box-shadow: 0 0 3px #555;
+    color: #333;
+}
+body.high #tiny_growl {
+	background: rgba(240, 255, 211, .9);
+    color: #555;
+}
+body.emergency #tiny_growl {
+	background: rgba(255, 24, 51, .8);
+    color: #fff;
+}
+#title {
+	font-weight: bold;
+}
+#tiny_growl {
+    overflow: hidden;
+    padding: 5px;
+}
+.image {
+    float: left;
+    width: 10%;
+}
+.text {
+    float: left;
+    width: 90%;
+}
+h1 {
+    margin: 0 0 2px;
+    font-size: 11px;
+    font-weight: 400;
+}
+p {
+    margin: 0;
+    font-size: 10px;
+    font-weight: 200;
+}
