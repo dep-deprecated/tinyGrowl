@@ -1,12 +1,10 @@
 html, body {
     margin: 0;
     font-family: Helvetica;
-    padding: 3px;
 }
 body #tiny_growl {
     background: rgba(255, 255, 255, .9);
-    border-radius: 5px;
-    box-shadow: 0 0 3px #555;
+    border-radius: 2px;
     color: #333;
 }
 body.high #tiny_growl {
