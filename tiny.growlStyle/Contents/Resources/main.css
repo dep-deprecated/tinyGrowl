@@ -4,21 +4,21 @@ html, body {
     padding: 3px;
 }
 body #tiny_growl {
-	background: rgba(255, 255, 255, .8);
+    background: rgba(255, 255, 255, .8);
     border-radius: 5px;
     box-shadow: 0 0 3px #555;
     color: #333;
 }
 body.high #tiny_growl {
-	background: rgba(240, 255, 211, .9);
+    background: rgba(240, 255, 211, .9);
     color: #555;
 }
 body.emergency #tiny_growl {
-	background: rgba(255, 24, 51, .8);
+    background: rgba(255, 24, 51, .8);
     color: #fff;
 }
 #title {
-	font-weight: bold;
+    font-weight: bold;
 }
 #tiny_growl {
     overflow: hidden;
